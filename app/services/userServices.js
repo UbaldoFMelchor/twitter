@@ -11,7 +11,7 @@ class UserServices {
     }
 
     static updateUserUsername(user,username) {
-        user.setUsername = username        
+        return user.setUsername = username        
     }
 
 }
