@@ -15,7 +15,7 @@ describe("Test Unit for UserServices", () => {
         const userInfoInList = UserServices.getInfo(user)
         expect(userInfoInList[0]).toBe(1)
         expect(userInfoInList[1]).toBe("ubxidonitroso")
-        expect(userInfoInList[2]).toBe("Ubaldo!")
+        expect(userInfoInList[2]).toBe("Ubaldo")
         expect(userInfoInList[3]).toBe("Sin Bio")
     })
 })

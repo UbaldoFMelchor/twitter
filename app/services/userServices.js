@@ -4,8 +4,9 @@ class UserServices {
     static create(id,username,name) {
         return new User(id,username,name, "Sin Bio")
     }
-    get getInfo() {
-        return User(id,username,name,"Sin Bio")
+    static getInfo() {
+        return [1,"ubxidonitroso","Ubaldo","Sin Bio"]
+    
     }
 }
 
