@@ -2,7 +2,7 @@ const user = require('./../../app/models/user')
 
 describe("Unit Test for User class", () => {
 
-    Test('Create an Unit User object', () => {    
+    test('Create an Unit User object', () => {    
         //Aquí invocas el código que vas a usar en tu app
         const user = new User(1, "ubxidonitroso", "Ubaldo","Bio","DateCreated","LastUpdate")
 
