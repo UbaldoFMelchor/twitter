@@ -14,6 +14,10 @@ class UserServices {
         return user.setUsername = username        
     }
 
+    static getAllUsernames ([user1,user2,user3]) {
+        return this.getAllUsernames = [user1.username,user2.username,user3.username]
+    }
+
 }
 
 module.exports = UserServices
